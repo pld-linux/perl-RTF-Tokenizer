@@ -9,7 +9,7 @@ Summary:	RTF::Tokenizer - tokenize RTF
 Summary(pl):	RTF::Tokenizer - rozk³ad RTF
 Name:		perl-RTF-Tokenizer
 Version:	1.07
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
