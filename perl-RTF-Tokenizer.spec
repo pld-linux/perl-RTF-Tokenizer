@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	RTF
-%define	pnam	Tokenizer
+%define		pdir	RTF
+%define		pnam	Tokenizer
 Summary:	RTF::Tokenizer - tokenize RTF
 Summary(pl):	RTF::Tokenizer - rozk³ad RTF
 Name:		perl-RTF-Tokenizer
