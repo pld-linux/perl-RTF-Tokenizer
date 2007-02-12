@@ -6,7 +6,7 @@
 %define		pdir	RTF
 %define		pnam	Tokenizer
 Summary:	RTF::Tokenizer - tokenize RTF
-Summary(pl):	RTF::Tokenizer - rozk≥ad RTF
+Summary(pl.UTF-8):   RTF::Tokenizer - rozk≈Çad RTF
 Name:		perl-RTF-Tokenizer
 Version:	1.08
 Release:	1
@@ -28,13 +28,13 @@ processor, this is not the module for you - you want RTF::Reader.
 This release of RTF::Tokenizer - it's faster, higher quality, and
 implements the RTF standard better than any previous release.
 
-%description -l pl
-Modu≥ Perla RTF::Tokenizer jest obiektowym niskopoziomowym czytnikiem
-RTF. Nie jest to modu≥ s≥uø±cy do wy∂wietlania RTF-u ani wysokiego
-poziomu procesor RTF-u. Tzn., je∂li kto∂ tego potrzebuje, to powinien
-pos≥uøyÊ siÍ modu≥em RTF::Reader. Ta wersja RTF::Tokenizer jest
-szybsza, lepszej jako∂ci i lepiej implementuje standard RTF niø wersje
-wcze∂niejsze.
+%description -l pl.UTF-8
+Modu≈Ç Perla RTF::Tokenizer jest obiektowym niskopoziomowym czytnikiem
+RTF. Nie jest to modu≈Ç s≈Çu≈ºƒÖcy do wy≈õwietlania RTF-u ani wysokiego
+poziomu procesor RTF-u. Tzn., je≈õli kto≈õ tego potrzebuje, to powinien
+pos≈Çu≈ºyƒá siƒô modu≈Çem RTF::Reader. Ta wersja RTF::Tokenizer jest
+szybsza, lepszej jako≈õci i lepiej implementuje standard RTF ni≈º wersje
+wcze≈õniejsze.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
