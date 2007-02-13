@@ -6,7 +6,7 @@
 %define		pdir	RTF
 %define		pnam	Tokenizer
 Summary:	RTF::Tokenizer - tokenize RTF
-Summary(pl.UTF-8):   RTF::Tokenizer - rozkład RTF
+Summary(pl.UTF-8):	RTF::Tokenizer - rozkład RTF
 Name:		perl-RTF-Tokenizer
 Version:	1.08
 Release:	1
