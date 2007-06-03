@@ -13,8 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/RTF/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a6fb8b4db160c3baf6689ce1bacc5647
+URL:		http://search.cpan.org/dist/RTF-Tokenizer/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 Requires:	perl-Text-Diff
