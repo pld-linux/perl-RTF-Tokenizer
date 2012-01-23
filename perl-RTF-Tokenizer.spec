@@ -8,13 +8,13 @@
 Summary:	RTF::Tokenizer - tokenize RTF
 Summary(pl.UTF-8):	RTF::Tokenizer - rozkład RTF
 Name:		perl-RTF-Tokenizer
-Version:	1.10
+Version:	1.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/RTF/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a6fb8b4db160c3baf6689ce1bacc5647
+# Source0-md5:	6b9cfb25f338349df6ad675356226d2d
 URL:		http://search.cpan.org/dist/RTF-Tokenizer/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -50,10 +50,12 @@ wcześniejsze.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_bindir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 install eg/*.rtf $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+install eg/rtf* $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
