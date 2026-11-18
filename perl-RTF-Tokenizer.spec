@@ -7,17 +7,16 @@
 Summary:	RTF::Tokenizer - tokenize RTF
 Summary(pl.UTF-8):	RTF::Tokenizer - rozkład RTF
 Name:		perl-RTF-Tokenizer
-Version:	1.13
-Release:	2
+Version:	1.20
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/RTF/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6b9cfb25f338349df6ad675356226d2d
+Source0:	https://www.cpan.org/modules/by-module/RTF/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	84f20558d947962be1a8b16e8550fe32
 URL:		http://search.cpan.org/dist/RTF-Tokenizer/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
-Requires:	perl-Text-Diff
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
